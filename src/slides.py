@@ -87,7 +87,7 @@ class gbsdSlides:
         label2 = Gtk.Label(name="slideText")
         label2.set_markup("GhostBSD includes Mozilla Firefox, the web browser used by millions of people around the world.\n\n"
                           "Browse the web safely and privately, share your files, software, and multimedia, send and receive e-mail, and communicate with friends and family.\n\n"
-                          "Web browsers such as Chromium and Epiphany are easily installable.")
+                          "Web browsers such as Chromium and Epiphany are also easily installable.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -111,7 +111,7 @@ class gbsdSlides:
         label2 = Gtk.Label(name="slideText")
         label2.set_markup("GhostBSD includes Mozilla Firefox, the web browser used by millions of people around the world.\n\n"
                           "Browse the web safely and privately, share your files, software, and multimedia, send and receive e-mail, and communicate with friends and family.\n\n"
-                          "Web browsers such as Chromium and Epiphany are easily installable.")
+                          "Web browsers such as Chromium and Epiphany are also easily installable.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -136,7 +136,7 @@ class gbsdSlides:
         label2 = Gtk.Label(name="slideText")
         label2.set_markup("With Shotwell, it is really easy to organize and share your photos\n\n"
                           "Use the Export option to copy your photos to a remote computer, iPod, a custom HTML gallery, or to export to services such as Flickr, Facebook, PicasaWeb, and more.\n\n"
-                          "For more advanced photos editing, Gimp is available for installation.")
+                          "For more advanced photo editing, Gimp is available for installation.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -158,9 +158,9 @@ class gbsdSlides:
         hBox.show()
         vBox.pack_end(hBox, True, True, 0)
         label2 = Gtk.Label(name="slideText")
-        label2.set_markup("GhostBSD is ready to play videos and music from the web, CDs and DVDs.\n\n"
+        label2.set_markup("GhostBSD is ready to play videos and music from the web, your CDs and DVDs.\n\n"
                           "Exaile audio player lets you organize your music and listen to Internet radio, podcasts, and more, as well as synchronizes your audio collection to a portable audio player.\n\n"
-                          "\nGnome MPlayer allows you to easily watch videos from your computer, DVD.")
+                          "\nGnome MPlayer allows you to easily watch videos from your computer or DVDs.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -182,9 +182,9 @@ class gbsdSlides:
         hBox.show()
         vBox.pack_end(hBox, True, True, 0)
         label2 = Gtk.Label(name="slideText")
-        label2.set_markup("GhostBSD is ready to play videos and music from the web, CDs and DVDs.\n\n"
+        label2.set_markup("GhostBSD is ready to play videos and music from the web, your CDs and DVDs.\n\n"
                           "Exaile audio player lets you organize your music and listen to Internet radio, podcasts, and more, as well as synchronizes your audio collection to a portable audio player.\n\n"
-                          "Gnome MPlayer allows you to easily watch videos from your computer, DVD.")
+                          "Gnome MPlayer allows you to easily watch videos from your computer or DVDs.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -331,7 +331,7 @@ class dbsdSlides:
         label2 = Gtk.Label(name="slideText")
         label2.set_markup("DesktopBSD includes the BSD licensed Chromium web browser from Google.\n\n"
                           "Check out the Chrome Web Store for more apps to install in addition to the ones provided by DesktopBSD/FreeBSD.\n\n"
-                          "Web browsers such as Firefox and Epiphany are easily installable.")
+                          "Web browsers such as Firefox and Epiphany are also easily installable.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -355,7 +355,7 @@ class dbsdSlides:
         label2 = Gtk.Label(name="slideText")
         label2.set_markup("DesktopBSD includes Mozilla Thunderbird.\n\n"
                           "Share your files, software, and multimedia, send and receive e-mail, and communicate with friends and family.\n\n"
-                          "Other email clients such as Evolution are easily installable.")
+                          "Other email clients such as Evolution are also easily installable.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
@@ -395,16 +395,16 @@ class dbsdSlides:
     def MultiMedia(self):
         vBox = Gtk.VBox(False, 0)
         vBox.show()
-        label = Gtk.Label("Play your movies and musics", name="Header")
+        label = Gtk.Label("Play your movies and music", name="Header")
         label.set_property("height-request", 40)
         vBox.pack_start(label, False, False, 0)
         hBox = Gtk.HBox(False, 0, name="mutimedia")
         hBox.show()
         vBox.pack_end(hBox, True, True, 0)
         label2 = Gtk.Label(name="slideText")
-        label2.set_markup("DesktopBSD is ready to play videos and music from the web, CDs and DVDs.\n\n"
+        label2.set_markup("DesktopBSD is ready to play videos and music from the web, your CDs and DVDs.\n\n"
                           "Exaile audio player lets you organize your music and listen to Internet radio, podcasts, and more, as well as synchronizes your audio collection to a portable audio player.\n\n"
-                          "\nVLC allows you to easily watch videos from your computer, DVD.")
+                          "\nVLC allows you to easily watch videos from your computer or DVDs.")
         label2.set_justify(Gtk.Justification.LEFT)
         label2.set_line_wrap(True)
         label2.set_alignment(0.1, 0.2)
