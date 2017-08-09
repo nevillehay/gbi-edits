@@ -99,7 +99,7 @@ class Types():
         box3.pack_start(hbox, True, True, 0)
         bbox1 = Gtk.VBox()
         bbox1.show()
-        grub = Gtk.RadioButton.new_with_label_from_widget(None, "Install Grub2(needed by ZFS)")
+        grub = Gtk.RadioButton.new_with_label_from_widget(None, "Install Grub2(needed for ZFS)")
         bbox1.pack_start(grub, False, True, 10)
         grub.connect("toggled", self.boot_manager, "grub")
         grub.show()
